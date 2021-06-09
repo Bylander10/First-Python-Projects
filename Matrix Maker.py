@@ -1,5 +1,5 @@
 """
-04 - leia uma matriz de 4 x 4,imprima a matriz e retorne a localização
+04 - leia uma matriz de 3 x 3,imprima a matriz e retorne a localização
 (linha e coluna) do maior valor
 """
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
