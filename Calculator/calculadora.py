@@ -108,15 +108,12 @@ def mostrar_historico():
     try:
         with open('historico.csv', 'r') as arquivo:
             linhas = arquivo.readlines()
-            if linhas:
-                for linha in linhas:
-                    numeros = linha.strip().split(',')
-                    print(f'{res}{numeros[0]} {numeros[3]} {numeros[1]} = {numeros[2]}{nrm}')
-            else:
-                print('---------------')
-                print('Histórico Vazio')
+            for linha in linhas:
+                numeros = linha.strip().split(',')
+                print(f'{res}{numeros[0]} {numeros[3]} {numeros[1]} = {numeros[2]}{nrm}')
     except FileNotFoundError:
-        print('Agenda Vazia')
+        print('---------------')
+        print('Histórico Vazio')
     except Exception as error:
         print('Um erro inesperado ocorreu!')
         print(error)
