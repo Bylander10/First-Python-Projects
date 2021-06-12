@@ -31,7 +31,7 @@ def escolher_pokemon_inicial(player):
             print('Escolha inválida, digite apenas os números mostrados')
 
 
-player = Player('João')
+player = Player('John')
 player.capturar(PokemonFogo('charmander', level=1))
 
 inimigo1 = Inimigo(nome='Gary', pokemons=[PokemonAgua('squirtle', level=1)])
