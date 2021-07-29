@@ -1,5 +1,6 @@
 """
 Importe o Dataset
+https://gist.github.com/KhanradCoder/35a6beea49e5b9ba62797e595a9626c0
 """
 
 import pandas as pd  # biblioteca responsável pela manipulação do nosso arquivo csv
